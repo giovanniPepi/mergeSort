@@ -31,5 +31,4 @@ const mergeSort = (arr) => {
   return merge(mergeSort(left), mergeSort(arr));
 };
 
-let test = [4, 8, 7, 2, 11, 1, 3];
-console.log(mergeSort(test));
+export default mergeSort;
